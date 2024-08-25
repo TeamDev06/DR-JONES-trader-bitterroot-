@@ -1,0 +1,154 @@
+// Niceville:
+
+<TraderMarker> 			0 									// Trader ID
+<TraderMarkerPosition>	4140.114,    565.52,     4141.99 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	250									// Safezone Radius
+
+<TraderMarker> 			1
+<TraderMarkerPosition>	4133.28,    564.980,    4143.69
+<TraderMarkerSafezone>	0
+
+<TraderMarker> 			2
+<TraderMarkerPosition>	4136.56,    564.962,    4144.13
+<TraderMarkerSafezone>	0
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	4135.40,    564.963,    4144.9
+<TraderMarkerSafezone>	0
+
+<TraderMarker> 			4
+<TraderMarkerPosition>	4134.280,	564.987,	4145.537
+<TraderMarkerSafezone>	0
+
+<TraderMarker> 			5
+<TraderMarkerPosition>	4133.39,	564.950,	4145.10
+<TraderMarkerSafezone>	0
+<VehicleSpawn>			4126.35,	565.056091,	4147.09		// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		-68,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Niceville:
+
+<Object> 			SurvivorF_Keiko						// Classname
+<ObjectPosition>	4140.114,    565.52,     4141.99		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<ObjectOrientation>	17.872409, 0,			0			// Yaw, 			Pitch, 			Roll
+//<ObjectAttachment>	NPC_DUMMY						// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
+<ObjectAttachment>	Pumpkin					// Add an Item to the Traders Inventory;
+<ObjectAttachment>	SurgicalGloves_White
+<ObjectAttachment>	MedicalScrubsHat_Green
+<ObjectAttachment>	MMG_tactical_shirt_black
+<ObjectAttachment>  ParamedicPants_Green
+<ObjectAttachment>	MMG_boots_green
+<ObjectAttachment>  MMG_JPC_Vest_Black
+<ObjectAttachment>  MMG_patch_fabric_medic
+
+<Object> 			SurvivorF_Keiko
+<ObjectPosition>	4133.28,    564.980,    4143.69
+<ObjectOrientation>	-164.258224, 0,			0
+<ObjectAttachment>	Wrench
+<ObjectAttachment>	SledgeHammer
+<ObjectAttachment>  MMG_JPC_Vest_Black
+<ObjectAttachment>	WorkingGloves_Brown
+<ObjectAttachment>	ConstructionHelmet_White
+<ObjectAttachment>	Shirt_BlueCheck
+<ObjectAttachment>	CanvasPants_Blue
+<ObjectAttachment>	WorkingBoots_Grey
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	4136.56,    564.962,    4144.13
+<ObjectOrientation>	34.050533, 0,			0
+<ObjectAttachment>	FirefighterAxe
+<ObjectAttachment>	M14
+<ObjectAttachment>	ACOGOptic
+<ObjectAttachment>	UMP45
+<ObjectAttachment>	Mag_UMP_25Rnd
+<ObjectAttachment>	Universallight
+<ObjectAttachment>	M68Optic
+<ObjectAttachment>	PistolSuppressor
+<ObjectAttachment>	OMNOGloves_Gray
+<ObjectAttachment>	MMG_striker_helmet_green
+<ObjectAttachment>  MMG_MK_V_Armor_green
+<ObjectAttachment>  MMG_patch_rubber_cherno_special
+<ObjectAttachment>	MMG_combatshirt_green
+<ObjectAttachment>	MMG_combatpants_olive
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	MMG_carrier_backpack_olive
+
+<Object> 			SurvivorM_Taiki
+<ObjectPosition>	4135.40,    564.963,    4144.9
+<ObjectOrientation>	19.451606, 0,			0
+<ObjectAttachment>	SVD
+<ObjectAttachment>	PSO1Optic
+<ObjectAttachment>  CPB_FN502_Black
+<ObjectAttachment>	mmg_tac_goggles_red_black
+<ObjectAttachment>	MMG_tactical_helmet_black
+<ObjectAttachment>	TacticalShirt_Olive
+<ObjectAttachment>  MMG_JPC_Vest_Black
+<ObjectAttachment>  MMG_patch_rubber_cherno_special
+<ObjectAttachment>	BDUPants
+<ObjectAttachment>	TTSKOBoots
+<ObjectAttachment>	MMG_carrier_backpack_olive
+
+<Object> 			SurvivorF_Frida  //
+<ObjectPosition>	4134.280,	564.987,	4145.537
+<ObjectOrientation>	27.925998, 0,			0
+<ObjectAttachment>	ThickFramesGlasses
+<ObjectAttachment>	WomanSuit_Black
+<ObjectAttachment>  MMG_JPC_Vest_Black
+<ObjectAttachment>  MMG_patch_rubber_south_africa
+<ObjectAttachment>	SlacksPants_Black
+<ObjectAttachment>	DressShoes_Black
+
+<Object> 			SurvivorM_Peter
+<ObjectPosition>	4133.39,	564.950,	4145.10
+<ObjectOrientation>	-58.166961, 0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>  MMG_JPC_Vest_Black
+<ObjectAttachment>  MMG_patch_rubber_driver
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+
+<Object>			Land_City_Stand_News2
+<ObjectPosition>	4138.9,		566.791,	4139.87
+<ObjectOrientation>	-152.284271, 0,			0
+
+<Object>			Land_Mil_GuardShed
+<ObjectPosition>	4135.6,		565.558,	4144.08
+<ObjectOrientation>	-153.356201, 0,			0
+
+<Object>			Land_Mil_GuardShed
+<ObjectPosition>	4133.38,		565.665,	4144.76
+<ObjectOrientation>	113.964218, 0,			0
+
+<Object>			StaticObj_Roadblock_Wood_Long_DE
+<ObjectPosition>	4151.50,		565.547,	4143.94
+<ObjectOrientation>	-58.087184, 0,			0
+
+<Object>			StaticObj_Roadblock_Wood_Long_DE
+<ObjectPosition>	4158.57,		565.560,	4143.57
+<ObjectOrientation>	117.467079, 0,			0
+
+<Object>			Land_Misc_Well_Pump_Blue
+<ObjectPosition>	4139.67,		565.388,	4146.37
+<ObjectOrientation>	0.0, 0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	4129.73,		564.942,	4148.16
+<ObjectOrientation>	111.265998, 0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	4128.36,		564.972,	4144.41
+<ObjectOrientation>	20.878580, 0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	4124.37,		564.889,	4149.99
+<ObjectOrientation>	111.265914, 0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	4123.01,		564.996,	4146.37
+<ObjectOrientation>	20.878580, 0,			0
+
+<Object>			Bonfire
+<ObjectPosition>	4147.12,		567.839,	4146.25
+<ObjectOrientation>	 -63.169689, 0,			0
